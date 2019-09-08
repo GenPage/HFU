@@ -1590,7 +1590,6 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { NOT = { has_idea = neutrality_idea } }
-					set_rule = { can_create_factions = yes }
 				}			
 			}
 		}
@@ -1598,7 +1597,7 @@ focus_tree = {
 	
 		focus = {
 		id = fin_continuation_prep
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_FIN_sisu
 		available = {
 		date > 1940.4.1
 		is_ai = no
@@ -1620,7 +1619,7 @@ focus_tree = {
 	
 	focus = {
 		id = fin_continuation
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		available = {
 		date > 1941.6.22
 		is_ai = no

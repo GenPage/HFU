@@ -14,7 +14,6 @@ NDefines.NFocus.MAX_SAVED_FOCUS_PROGRESS = 15                   --up from 10, sh
 ---------------------------------------------------------------
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_KICKING_NEW_MEMBERS_OF_FACTION = 14	-- down from 90 | Number of days before being able to kick a new member of faction 
 NDefines.NDiplomacy.NUM_DAYS_TO_ENABLE_REINVITE_KICKED_NATIONS = 14		-- down from 90 | Number of days before being able to re invite a kicked 
-NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 999	
 NDefines.NDiplomacy.GUARANTEE_COST = 1000
 NDefines.NDiplomacy.REVOKE_GUARANTEE_COST = 1000
 NDefines.NDiplomacy.PEACE_SCORE_PER_PASS = 100.0						-- When you pass once you should get enough points to finish the peace deal
@@ -102,20 +101,3 @@ NDefines_Graphics.NGraphics.DRAW_SHADOWS_CUTOFF = 0
 NDefines_Graphics.NGraphics.DRAW_SHADOWS_FADE_LENGTH = 0
 NDefines_Graphics.NGraphics.DRAW_FOW_CUTOFF = 0
 NDefines_Graphics.NGraphics.DRAW_FOW_FADE_LENGTH = 0
-
-
-NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
-NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.25
-NDefines.NMilitary.COMBAT_MINIMUM_TIME = 1.5
-
----AA Balance #values from spot
-NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.003
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.005
-NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.025
-NDefines.NAir.ANTI_AIR_PLANE_DAMAGE_CHANCE = 0.075
-NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75
-
-
-
-
-ACE_DEATH_CHANCE_BASE = 0.002
